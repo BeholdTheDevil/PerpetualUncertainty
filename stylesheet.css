@@ -18,3 +18,10 @@
 .navbar-inverse {
 	background-image: none;
 }
+
+#tentacleImage {
+	height: 100px;
+	float: left;
+	position: relative;
+	bottom: 20px;
+}
