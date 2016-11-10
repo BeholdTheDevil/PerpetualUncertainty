@@ -19,9 +19,16 @@
 	background-image: none;
 }
 
+.tentacleImageContainer {
+	position: relative;
+	background: none;
+	left: -55px;
+}
+
 #tentacleImage {
 	height: 100px;
 	float: left;
-	position: relative;
-	bottom: 20px;
+	position: absolute;
+	top: -16px;
+	/*bottom: 20px;
 }
