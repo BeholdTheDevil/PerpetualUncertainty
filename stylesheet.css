@@ -1,3 +1,7 @@
+body {
+	padding-top: 65px;
+}
+
 .navbar-inverse .navbar-nav>li>a {
 	color: #aaa;
 	font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
@@ -9,10 +13,6 @@
 	color: #aaa;
 	font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
 	font-size: 18pt;
-}
-
-.navbar-background-custom {
-	color: white;
 }
 
 .navbar-inverse {
