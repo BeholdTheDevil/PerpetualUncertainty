@@ -1,0 +1,28 @@
+.gallery-wrapper {
+  display: flex;
+  flex-flow: row;
+}
+.imgCanvas {
+  margin: auto;
+  height: auto;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.imgCanvas img {
+  margin: inherit;;
+  border: 2px solid #ccccce;
+  height: auto;
+  width: 450px;
+}
+.image-text-collapse {
+  position: relative;
+  text-align: center;
+  transform: rotate(360deg);
+  color: #cccccc;
+}
+.image-text-collapse:hover,
+.image-text-collapse:active {
+  text-decoration: none;
+}
