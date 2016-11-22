@@ -1,28 +1,47 @@
 .gallery-wrapper {
-  display: flex;
-  flex-flow: row;
-}
-.imgCanvas {
   margin: auto;
-  height: auto;
-  width: 500px;
-  position: relative;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.column3 {
+  margin: 0 auto 25px;
   display: flex;
   flex-direction: column;
 }
-.imgCanvas img {
-  margin: inherit;;
-  border: 2px solid #ccccce;
+.imgCanvas {
+  width: 430px;
   height: auto;
-  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto 10px;
 }
-.image-text-collapse {
-  position: relative;
+.textImg {
+  margin: auto;
+  border: 2px solid #ccccce;
+  height: 240px;
+  width: 420px;
+}
+.text-toggle {
+  background: #363636;
+  border: 2px solid #ccc;
+  width: 32px;
+  height: auto;
+  margin: 1px auto;
+}
+.text-toggle div {
+  display: block;
   text-align: center;
-  transform: rotate(360deg);
-  color: #cccccc;
+  color: #ccc;
 }
-.image-text-collapse:hover,
-.image-text-collapse:active {
-  text-decoration: none;
+.textInfo {
+  background: slategrey;
+  margin: auto;
+  display: none;
+  color: #ccc;
+  border: 2px solid #ccccce;
+  width: 420px;
+}
+.textInfo p {
+  margin: 5px;
 }

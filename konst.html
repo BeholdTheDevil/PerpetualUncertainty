@@ -8,18 +8,23 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Personal stylesheet for overwriting bootstrap -->
     <link rel="stylesheet" href="stylesheet.css">
     <!--Individual stylesheet for Konst.html-->
     <link rel="stylesheet" href="konst_stylesheet.css">
+    <!--Personal JQuery-->
+    <script src="konst_script.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,13 +59,15 @@
     <!--GALLERY WRAPPER BEGIN-->
     <div class="gallery-wrapper">
 
+    <!--COLUMN 3:1 BEGIN-->
+    <div class="column3">
+
     <!--IMG 1-->
     <div class="imgCanvas">
-      <img src="Konst_Images/placeholder.jpeg">
-      <a class="glyphicon glyphicon-triangle-bottom image-text-collapse" role="button" data-toggle="collapse" href="#hiddenText" aria-expanded="false" aria-controls="hiddenText"></a>
+      <img class="textImg" src="Konst_Images/placeholder.jpeg">
+      <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
         <!--HIDDEN TEXT BEGIN-->
-        <div class="collapse" id="hiddenText">
-          <div class="well">
+          <div class="textInfo">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -71,19 +78,19 @@
               occaecat cupidatat non proident, sunt in culpa qui officia
               deserunt mollit anim id est laborum.
             </p>
-          </div>
         </div>
         <!--HIDDEN TEXT END-->
       </div>
       <!--IMG 1 END-->
 
+
+
       <!--IMG 2 BEGIN-->
       <div class="imgCanvas">
-        <img src="Konst_Images/placeholder2.jpeg">
-        <a class="glyphicon glyphicon-triangle-bottom image-text-collapse" role="button" data-toggle="collapse" href="#hiddenText2" aria-expanded="false" aria-controls="hiddenText2"></a>
+        <img class="textImg" src="Konst_Images/placeholder2.jpeg">
+        <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
           <!--HIDDEN TEXT BEGIN-->
-          <div class="collapse" id="hiddenText2">
-            <div class="well">
+            <div class="textInfo">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -94,7 +101,6 @@
                 occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum.
               </p>
-            </div>
           </div>
           <!--HIDDEN TEXT END-->
         </div>
@@ -102,11 +108,10 @@
 
         <!--IMG 3 BEGIN-->
         <div class="imgCanvas">
-          <img src="Konst_Images/placeholder3.jpeg">
-          <a class="glyphicon glyphicon-triangle-bottom image-text-collapse" role="button" data-toggle="collapse" href="#hiddenText3" aria-expanded="false" aria-controls="hiddenText3"></a>
+          <img class="textImg" src="Konst_Images/placeholder3.jpeg">
+          <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
             <!--HIDDEN TEXT BEGIN-->
-            <div class="collapse" id="hiddenText3">
-              <div class="well">
+              <div class="textInfo">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -117,19 +122,155 @@
                   occaecat cupidatat non proident, sunt in culpa qui officia
                   deserunt mollit anim id est laborum.
                 </p>
-              </div>
             </div>
             <!--HIDDEN TEXT END-->
           </div>
           <!--IMG 3 END-->
 
+          </div>
+          <!--COLUMN 3:1 END-->
+
+          <!--COLUMN 3:2 BEGIN-->
+          <div class="column3">
+
+          <!--IMG 4 BEGIN-->
+          <div class="imgCanvas">
+            <img class="textImg" src="Konst_Images/placeholder4.jpeg">
+            <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+              <!--HIDDEN TEXT BEGIN-->
+                <div class="textInfo">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </p>
+              </div>
+              <!--HIDDEN TEXT END-->
+            </div>
+            <!-- IMG 4 END-->
+
+            <!--IMG 5 BEGIN-->
+            <div class="imgCanvas">
+              <img class="textImg" src="Konst_Images/placeholder5.jpeg">
+              <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+                <!--HIDDEN TEXT BEGIN-->
+                  <div class="textInfo">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia
+                      deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <!--HIDDEN TEXT END-->
+              </div>
+              <!--IMG 5 END-->
+
+              <!--IMG 5 BEGIN-->
+              <div class="imgCanvas">
+                <img class="textImg" src="Konst_Images/placeholder6.jpeg">
+                <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+                  <!--HIDDEN TEXT BEGIN-->
+                    <div class="textInfo">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.
+                      </p>
+                  </div>
+                  <!--HIDDEN TEXT END-->
+                </div>
+                <!--IMG 6 END-->
+
+              </div>
+              <!--COLUMN 3:2 END-->
+
+              <!--COLUMN 3:3 BEGIN-->
+              <div class="column3">
+
+              <!--IMG 7 BEGIN-->
+              <div class="imgCanvas">
+                <img class="textImg" src="Konst_Images/placeholder7.jpeg">
+                <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+                  <!--HIDDEN TEXT BEGIN-->
+                    <div class="textInfo">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.
+                      </p>
+                  </div>
+                  <!--HIDDEN TEXT END-->
+                </div>
+                <!-- IMG 7 END-->
+
+                <!--IMG 8 BEGIN-->
+                <div class="imgCanvas">
+                  <img class="textImg" src="Konst_Images/placeholder8.jpeg">
+                  <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+                    <!--HIDDEN TEXT BEGIN-->
+                      <div class="textInfo">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna
+                          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          Duis aute irure dolor in reprehenderit in voluptate velit
+                          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                          occaecat cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <!--HIDDEN TEXT END-->
+                  </div>
+                  <!--IMG 8 END-->
+
+                  <!--IMG 9 BEGIN-->
+                  <div class="imgCanvas">
+                    <img class="textImg" src="Konst_Images/placeholder9.jpeg">
+                    <div class="text-toggle"><div class="glyphicon glyphicon-menu-down"></div></div>
+                      <!--HIDDEN TEXT BEGIN-->
+                        <div class="textInfo">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                          </p>
+                      </div>
+                      <!--HIDDEN TEXT END-->
+                    </div>
+                    <!--IMG 9 END-->
+
+                  </div>
+                  <!--COLUMN 3:3 END-->
       </div>
       <!--GALLERY WRAPPER END-->
 
       <!--PERSONAL EDIT SPACE END-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   </body>
 </html>
