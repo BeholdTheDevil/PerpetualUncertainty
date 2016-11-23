@@ -1,3 +1,4 @@
+/* GALLERY BEGIN */
 .gallery-wrapper {
   margin: auto;
   top: 25px;
@@ -45,3 +46,37 @@
 .textInfo p {
   margin: 5px;
 }
+/* GALLERY END */
+
+/* FOOTER BEGIN */
+
+/* FOOTER END */
+/* SCROLLBAR BEGIN */
+::-webkit-scrollbar {
+  width: 15px;
+  background: #3f2f39;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,5);
+  background: repeating-linear-gradient(
+      45deg,
+      #FF9900,
+      transparent 10px,
+      slategrey 10px,
+      transparent 20px
+      );
+  border-radius: 10px;
+  margin: 5px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.7);
+  background: repeating-linear-gradient(
+      45deg,
+      #51323f,
+      #51323f 10px,
+      #3c2027 10px,
+      #3c2027 20px
+      );
+  border-radius: 10px;
+}
+/* SCROLLBAR END */

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $(".text-toggle").click(function(){
-    $(this).siblings(".textInfo").toggle(1000);
+    $(this).siblings(".textInfo").toggle(500);
   });
 
   //functions ...
