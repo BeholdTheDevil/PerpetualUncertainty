@@ -1,0 +1,25 @@
+body {
+}
+
+.utstallningen-text {
+	
+	color:green;
+	width: 70%;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: monospace;
+	font-size: 170%;
+	float:right;
+
+
+}
+
+.exempel_bild {
+	margin-left: -120px;
+	margin-top: 0px;
+	float:left;
+	width: 34%;
+	border-radius: 50px;
+	opacity: 0.9;
+}
