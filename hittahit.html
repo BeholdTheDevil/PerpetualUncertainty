@@ -46,7 +46,16 @@
         </ul>
       </div>
     </nav>
-    
+
+    <div id="myModal" class="modal">
+     <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'"> &#215;</span>
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
     <div class="content">
       <div class="jumbotron">
         <div class="filterjumbo">
@@ -58,20 +67,41 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <p class="lead">Our location</p>
+      <div class="contentContainer">
+        <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 columnOne">
+           <p class="lead">BESÖKSADRESS</p>
+         </div>
+        </div>
+        <div class="row">
+         <div id="map"></div>
+         <div class="col-lg-8 col-lg-offset-2 columnTwo">
+           <div class="textBox">
+            <div class="visitingAdress">
+             <p>Bildmuseet, Konstnärligt campus
+             Östra strandgatan 30 B
+             903 33 Umeå</p>
+             <p>Bildmuseet ligger vackert beläget vid strandpromenaden nära centrum, ta en promenad eller cykla längs Umeälven. Lokalbussar nr 1, 5, 6 och 8 stannar vid hållplats
+             Östra Strandgatan, nära Bildmuseet. Tidtabell från din hållplats hittar du enklast på <a href="www.tabussen.nu">www.tabussen.nu</a>. Parkeringsplatser finns vid älven intill Konstnärligt campus eller längst gatorna ovanför, Öst på stan.</p>
+            </div>
+            <div class="openHours">
+              <h3>ÖPPETTIDER</h3>
+              <p>Tis 11-20</p>
+              <p>Ons-sön 11-18</p>
+              <p>Mån stängt</p>
+              <p>Fri entré</p>
+            </div>
+           </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="map"></div>
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->  
-    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD33rciYPWjhswjMKXvwp3XiK0eOpXgooU"></script>
     <script src="customMap.js"></script>
+    <script src="hittaHitModal.js"></script>
   </body>
 </html>

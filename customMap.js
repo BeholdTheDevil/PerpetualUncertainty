@@ -9,7 +9,7 @@ $(function () {
 			zoom: 16,
 			panControl: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
-		}
+		};
 		var map = new google.maps.Map(mapCanvas, mapOptions);
 
 		var marker = new google.maps.Marker({
@@ -17,11 +17,9 @@ $(function () {
 			map: map
 		});
 
-		var contentString = '<div class="info-window">' + 
-							'<h3>Info Window Content</h3>' +
-							'<div class="info-content>' +
-							'<p>Lorem ipsum dolor sit amet</p>' +
-							'</div>' + 
+		var contentString = '<div class="info-window" style="display:flex;flex-direction:column;">' + 
+							'<h3 style="margin:auto;">Bildmuseet Umeå</h3>' +
+							'<img id="info-window-image" src="/home/anton/private/course/webbutveckling/PerpetualUncertainty/Konst_Images/Ny mapp/Bildmuseet1600x533.jpg" alt="Bildmuseet" onclick="myFunction()">' +
 							'</div>';
 		var infoWindow = new google.maps.InfoWindow({
 			content: contentString,
